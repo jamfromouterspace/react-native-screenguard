@@ -1,5 +1,5 @@
 {
-  "name": "react-native-screenguard",
+  "name": "@closetothe/react-native-screenguard",
   "version": "1.0.2",
   "description": "A Native screenshot blocking library for React-Native developer, with background customizable after captured. Screenshot detector are also supported.",
   "main": "./src/commonjs/index.js",
@@ -69,6 +69,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pre": "npm pack --dry-run",
     "pub": "npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
